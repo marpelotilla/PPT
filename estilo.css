@@ -1,0 +1,51 @@
+body{
+  background-color: white;
+  color: black;
+}
+
+.contenedor{
+  text-align: center;
+  /*position: absolute;*/
+  /*top:20vh;*/
+  margin-top: 5px;
+}
+ .contenedor div{
+
+  display:inline-block;
+  cursor:pointer;
+}
+.contenedor img{
+height:auto;
+width: 20vw;
+}
+.puntuacion{
+  position: relative;
+  display:block;
+  height: 1px;
+}
+.puntuacion div{
+
+  height:100px;
+  width: 100px;
+  background-color:grey;
+  display:inline-block;
+  position: absolute;
+}
+.punt_pc{
+  right: 0;
+}
+
+#piedra:active{
+  background-color: blue;
+}
+
+#papel:active{
+  background-color: blue;
+}
+#tijeras:active{
+  background-color: blue;
+}
+.jumbotron{
+  visibility: hidden;
+  text-align: center;
+}
